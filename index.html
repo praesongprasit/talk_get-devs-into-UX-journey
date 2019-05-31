@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<meta property="og:url" content="https://lackofcolours.github.io/talk_qa-from-fed-letter/" />
+		<meta property="og:title" content="Dear Testers" />
+		<meta property="og:image" content="https://lackofcolours.github.io/talk_qa-from-fed-letter/repository-open-graph_img.png" />
+		<meta property="og:description" content="A love letter from your humble Front End Developer" />
+
+		<title>Dear testers - Love letter from a FED | Prae Songprasit</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/navy-custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Dear Testers</h1>
+					<p>A love letter<br><small>from your humble UI Front End Developer</small></p>
+					<p>
+						<small>
+							<a href="https://lackofcolours.com">Prae Songprasit</a> | <a href="https://twitter.com/lackofcolours" alt="Link to Prae Songprasit's twitter">@lackofcolours</a>
+						</small>
+					</p>
+
+					<aside class="notes">
+						<p>Prae, UI Front End Developer for 6 years.</p>
+						<p>Specialise in scalable CSS &amp; Semantic HTML for large scale sites.</p>
+						<p>Like Tourism New Zealand, and Xero's customer help portal.</p>
+						<p>This means hundreds of templates, thousand components variation.</p>
+						<p>To keep things concise, I'm going to refer to Testers, QAs, Test Engineers and etc, as simply testers. And Front End Developer 'FED'.</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Why?</h2>
+					
+					<p>
+						<span class="fragment" data-fragment-index="1">Create <bold>empathy</bold></span>
+						<span class="fragment" data-fragment-index="2">and show <bold>appreciation</bold></span>
+					</p>
+
+					<aside class="notes">
+						<p>Am getting tired of testers and developers antagonising eachother. Empathy!</p>
+						<p>Want to start, by show my appreciations, and share what I've learnt over the years</p>
+						<p>Became a better developer because of them... you!</p>
+						<p>But first, I must apologise for my past, and perhaps present shameful behavior</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Sorry <span class="fragment" data-fragment-index="1">for</span></h2>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1">rolling my eyes at you</li>
+						<li class="fragment" data-fragment-index="2">being a bit curt</li>
+						<li class="fragment" data-fragment-index="3">taking you for granted</li>
+					</ul>
+
+					<aside class="notes">
+						<p>Roll eyes</p>
+						<ol>
+							<li>Focused on hard technical skills within my desipline.</li>
+							<li>Hung out with developers. Picked up bad attitude</li>
+							<li>Known issue, or common sense</li>
+							<li>See you approaching my desk</li>
+						</ol>
+
+						<p>Curt</p>
+						<ol>
+							<li>Deadline pressure. Last thing I want to hear is an obscure bug that requires support</li>
+							<li>Another IE9 bug</li>
+						</ol>
+
+						<p>Taken for granted</p>
+						<ol>
+							<li>Didn't leave enough time to test</li>
+							<li>Design delay, dev prob, testers get short end of the stick</li>
+							<li>Forced to cram work in, or take short cuts</li>
+							<li>Pressure on you, undermine qualities</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<img class="stretch"
+						 src="img/pastry.jpg"
+						 alt="Water colour illustrations of pastries by Kendyll Hillegas https://kendyllhillegas.tumblr.com/post/144047550019/bread-pastry">
+					
+					<aside class="notes">
+						<ol>
+							<li>Over the years, I've also learnt that QAs are like FEDs</li>
+							<li>There are FEDs who are visual, and FEDs who are more like backend</li>
+							<li>Come in different shapes, personality, and technical skills</li>
+							<li>I have many things to thank each type of testers for</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Visual testers</h2>
+					<p class="fragment" data-fragment-index="1">Thanks for</p>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1">spotting small style changes</li>
+						<li class="fragment" data-fragment-index="2">showing me the empty spaces</li>
+						<li class="fragment" data-fragment-index="3">slaving through <bold>manual visual regression</bold></li>
+						<li class="fragment" data-fragment-index="4">telling me something looks incomplete</li>
+					</ul>
+
+					<aside class="notes">
+						<p>Type who focus on the visual, design, alignment and layout side of things</p>
+						<p>Invaluable when making a UI pattern library. The 20 instances of buttons!</p>
+						<ol>
+							<li>Old codebase colours into new higher contrast</li>
+							<li>When there is no content, no space. Margin and padding</li>
+							<li>
+								FED landscape changes very quickly. Conventions change.<br>
+								There are more ways to make things more efficient. Hence refactor.
+							</li>
+							<li>Some projects, we FED are the designers. I need to be told!</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>UX Testers</h2>
+					<p class="fragment" data-fragment-index="1">Thanks for</p>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1">asking me <em>dumb</em> but <bold>neccessary questions</bold></li>
+						<li class="fragment" data-fragment-index="2">showing me our error pages</li>
+						<li class="fragment" data-fragment-index="3">using our product like a <bold>normal user</bold></li>
+					</ul>
+
+					<aside class="notes">
+						<p>These people are thorough with their interaction and flow between components and pages</p>
+
+						<ol>
+							<li>Stop looking so guilty and lead with 'may I ask a dumb question'<br>
+								Nothing is dumb. Irrelevant at worst
+							</li>
+							<li>Error page is one thing we always forget</li>
+							<li>Click around! If it's taking you where you don't expect, I have more ammunition to talk to designers</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>PM testers</h2>
+					<p class="fragment" data-fragment-index="1">Thanks for</p>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1">reminding me to use <bold>analytics</bold></li>
+						<li class="fragment" data-fragment-index="2">knowing the <bold>business logic</bold> better than I do</li>
+						<li class="fragment" data-fragment-index="3"><bold>managing the * out of my workflow</bold></li>
+						<li class="fragment" data-fragment-index="4">logging beautifully <bold>descriptive tickets</bold></li>
+					</ul>
+
+					<aside class="notes">
+						<p>This breed of testers have business logic and process clear, in their head</p>
+						<ol>
+							<li>Or I'll try to cover every single edge case &amp; waste my time on 0.5 of the users, or who I should focus my efforts on</li>
+							<li>I make dumb interactive components. I don't know how many places this button needs to go, explain and can alter design</li>
+							<li>Asking me hard questions, like how I work. Explain your process when I don't have a clue</li>
+							<li>Clear issue outlined. Has enough experience to if this is a FED or BED bug. Screenshots &amp; Gifs</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Technical Testers</h2>
+					<p class="fragment" data-fragment-index="1">Thanks for</p>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1">knowing how to GitHub</li>
+						<li class="fragment" data-fragment-index="2">continuously improving automated test</li>
+						<li class="fragment" data-fragment-index="3">replicating gloriously technical issues</li>
+					</ul>
+
+					<aside class="notes">
+						<p>Often ex-developer, or just been upskilling and learning python</p>
+
+						<ol>
+							<li>Review my PR, and go update automated test suite. No word needed</li>
+							<li>I haven't a practical clue. Save everyone time</li>
+							<li>Which browser, which OS, which viewport size, which zoom level, after how many clicks?</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Platform specialist testers</h2>
+					<p class="fragment" data-fragment-index="1">Thanks for</p>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1"><bold>sharing wealth of knowledge</bold></li>
+						<li class="fragment" data-fragment-index="2"><bold>creating test content</bold> in our 20 environments</li>
+					</ul>
+
+					<aside class="notes">
+						<p>Generally married to a platform. Custom to company, Salesforce, Wordpress, and etc</p>
+
+						<ol>
+							<li>Steps to display x, y. Explain how it came about. Past implementation. History</li>
+							<li>UI and content goes hand in hand. Designers have imagined one. We deal with the real</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Thanks <span class="fragment" data-fragment-index="1">for</span></h2>
+
+					<ul>
+						<li class="fragment" data-fragment-index="1">Infinite patience</li>
+						<li class="fragment" data-fragment-index="2">Flexibility</li>
+						<li class="fragment" data-fragment-index="3">Attention to detail</li>
+						<li class="fragment" data-fragment-index="4">Unofficial documentation</li>
+						<li class="fragment" data-fragment-index="5">Helping me grow</li>
+					</ul>
+
+					<aside class="notes">
+						<p>Finally...</p>
+						<p>Some of the ways I code changed forever because of some very memerable bugs</p>
+						<p>Now I know:</p>
+						<ol>
+							<li>Automtatically make the whole block clickable</li>
+							<li>Visited state's hover colour flickers</li>
+							<li>Never assume a button fits all content</li>
+							<li>To come to you when I feel lost</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Help us, help you</h2>
+					<ul>
+						<li class="fragment" data-fragment-index="1">Tell us what you need</li>
+						<li class="fragment" data-fragment-index="2">Tell us your test process</li>
+						<li class="fragment" data-fragment-index="3">No questions are dumb. Just irrelevant</li>
+					</ul>
+
+					<aside class="notes">
+						<ol>
+							<li>What kind of information/handover note is useful?</li>
+							<li>When do you need to start automating those new templates?</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>We're a team</h2>
+					<img class="stretch"
+							src="img/pumkin-pie-ingredients.jpg"
+							alt="Water colour illustrations of pumkin pie ingredients by Kendyll Hillegas https://kendyllhillegas.tumblr.com/post/182918505284/something-a-little-different-that-i-made-back-in">
+					
+					<aside class="notes">
+						<ol>
+							<li>We need you to test our pumkin pie/product</li>
+							<li>Too sweet? Turn an audience off?</li>
+							<li>Too hard? Not suitable for older people with bad teeth</li>
+							<li>Too small a piece? No good for people with large hands?</li>
+							<li>Lets make the best pie out there</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Again, thanks!</h2>
+					<p>Questions?</p>
+					<p><small>Tweet me <a href="https://twitter.com/lackofcolours" alt="Link to Prae Songprasit's twitter">@lackofcolours</a></small></p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
