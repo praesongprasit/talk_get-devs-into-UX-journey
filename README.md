@@ -1,7 +1,7 @@
 # Get developers into testing sessions
 
 This talk was prepared for:
-- [Wellington UX Meetup](https://www.meetup.com/uxwellington) - 19th June 2019
+- [Wellington UX Meetup](https://www.meetup.com/uxwellington/events/262087894/) - 19th June 2019
 
 ## Viewing
 
