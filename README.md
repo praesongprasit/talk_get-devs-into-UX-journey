@@ -1,4 +1,4 @@
-# Get developers into testing sessions
+# Include developers into UX journey
 
 This talk was prepared for:
 - [Wellington UX Meetup](https://www.meetup.com/uxwellington/events/262087894/) - 19th June 2019
