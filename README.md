@@ -6,7 +6,7 @@ This talk was prepared for:
 ## Viewing
 
 The slides can be viewed on:
-
+https://lackofcolours.github.io/talk_get-devs-into-testing-sessions/
 
 To view slide notes, open the slide and press the `s` key.
 
