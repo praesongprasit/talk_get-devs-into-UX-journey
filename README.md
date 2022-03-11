@@ -6,7 +6,7 @@ This 15mins talk was prepared for:
 ## Viewing
 
 The slides can be viewed on:
-https://lackofcolours.github.io/talk_get-devs-into-UX-journey/
+https://praesongprasit.github.io/talk_get-devs-into-UX-journey/
 
 To view slide notes, open the slide and press the `s` key.
 
